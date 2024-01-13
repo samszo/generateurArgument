@@ -1,0 +1,168 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix argu: <https://samszo.univ-paris8.fr/onto/argument#> .
+
+
+<https://samszo.univ-paris8.fr/onto/argument#> a owl:Ontology ;
+    dcterms:title "Modélisation des arguments" .
+
+argu:Monde a rdfs:Class ;
+    rdfs:label "Monde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:Argument a rdfs:Class ;
+    rdfs:label "Argument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:familleArgument a rdfs:Class ;
+    rdfs:label "Famille d'argument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:lieuCommun a rdfs:Class ;
+    rdfs:label "Lieu commun" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:valeurCommune a rdfs:Class ;
+    rdfs:label "Valeur commune" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:opinionCommune a rdfs:Class ;
+    rdfs:label "Opinion commune" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+argu:echelleMicro a rdf:Property ;
+    rdfs:label "Echelle Micro" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:echelleMeso a rdf:Property ;
+    rdfs:label "Echelle Meso" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:echelleMacro a rdf:Property ;
+    rdfs:label "Echelle Macro" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:rapportTechnique a rdf:Property ;
+    rdfs:label "Rapport à la technique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:rapportOrdre a rdf:Property ;
+    rdfs:label "Rapport à l'ordre et au conformisme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:rapportGrandeur a rdf:Property ;
+    rdfs:label "Rapport aux signes de grandeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:fonctionRapportGrandeur a rdf:Property ;
+    rdfs:label "Fonctionnement des rapports de grandeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .     
+
+argu:hierarchieRapportSocial a rdf:Property ;
+    rdfs:label "Hiérarchie des rapports sociaux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:valeurPositive a rdf:Property ;
+    rdfs:label "Valeurs positives" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:fonctionReferentiel a rdf:Property ;
+    rdfs:label "Référentiel du fonctionnement des mondes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:valeurNegative a rdf:Property ;
+    rdfs:label "Valeurs négatives" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasMonde a rdf:Property ;
+    rdfs:label "A comme monde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasArgu a rdf:Property ;
+    rdfs:label "A comme argument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasFamilleArgu a rdf:Property ;
+    rdfs:label "A comme famille d'argument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:definitionCadreLimite a rdf:Property ;
+    rdfs:label "Définition cadre limite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:definitionArgumentativeDescriptive a rdf:Property ;
+    rdfs:label "Définition argumentative descriptive" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:definitionArgumentativeNormative a rdf:Property ;
+    rdfs:label "Définition argumentative normative" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:complementTransfert a rdf:Property ;
+    rdfs:label "Complément de transfert" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:autorite a rdfs:Class ;
+    rdfs:label "Autorité" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasAutorite a rdf:Property ;
+    rdfs:label "A comme autorité" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:generateur a rdf:Property ;
+    rdfs:label "Générateur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:cadrage a rdfs:Class ;
+    rdfs:label "Cadrage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasCadrage a rdf:Property ;
+    rdfs:label "A comme cadrage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:convocation a rdfs:Class ;
+    rdfs:label "Convocation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasConvocation a rdf:Property ;
+    rdfs:label "A comme convocation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
