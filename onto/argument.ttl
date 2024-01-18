@@ -172,7 +172,7 @@ argu:hasCommunaute a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-argu:complementTransfert a rdf:Class ;
+argu:complementTransfert a rdfs:Class ;
     rdfs:label "Complément de transfert" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
