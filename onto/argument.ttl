@@ -127,16 +127,6 @@ argu:definitionArgumentativeNormative a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-argu:complementTransfert a rdf:Class ;
-    rdfs:label "Complément de transfert" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-argu:hasComplementTransfert a rdf:Property ;
-    rdfs:label "A comme Complément de transfert" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 argu:autorite a rdfs:Class ;
     rdfs:label "Autorité" ;
     rdfs:domain o:Resource ;
@@ -179,6 +169,16 @@ argu:communaute a rdfs:Class ;
 
 argu:hasCommunaute a rdf:Property ;
     rdfs:label "A comme communauté" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:complementTransfert a rdf:Class ;
+    rdfs:label "Complément de transfert" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasComplementTransfert a rdf:Property ;
+    rdfs:label "A comme Complément de transfert" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
