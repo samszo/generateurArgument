@@ -182,4 +182,14 @@ argu:hasComplementTransfert a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+argu:registre a rdfs:Class ;
+    rdfs:label "Registre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasRegistre a rdf:Property ;
+    rdfs:label "A comme registre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
