@@ -166,3 +166,15 @@ argu:hasConvocation a rdf:Property ;
     rdfs:label "A comme convocation" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+argu:communaute a rdfs:Class ;
+    rdfs:label "Communauté" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasCommunaute a rdf:Property ;
+    rdfs:label "A comme communauté" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
