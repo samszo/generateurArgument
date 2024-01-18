@@ -127,8 +127,13 @@ argu:definitionArgumentativeNormative a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-argu:complementTransfert a rdf:Property ;
+argu:complementTransfert a rdf:Class ;
     rdfs:label "Complément de transfert" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+argu:hasComplementTransfert a rdf:Property ;
+    rdfs:label "A comme Complément de transfert" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
